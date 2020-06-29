@@ -1,4 +1,4 @@
- Kashem@Kashem-680M MINGW32 ~
+Kashem@Kashem-680M MINGW32 ~
 $ pwd
 /c/Users/Kashem
 
@@ -17,7 +17,6 @@ $ ls
 
 Kashem@Kashem-680M MINGW32 /e
 $ cd QAAE/
-new line has been added 
 
 Kashem@Kashem-680M MINGW32 /e/QAAE
 $ ls
@@ -56,7 +55,7 @@ kashemAWS
 [ec2-user@ip-172-31-38-80 kashemAWS]$ LS
 -bash: LS: command not found
 [ec2-user@ip-172-31-38-80 kashemAWS]$ chmod 400 KASHEM.pem
-chmod: cannot access ‘KASHEM.pem’: No such file or directory
+chmod: cannot access �KASHEM.pem�: No such file or directory
 [ec2-user@ip-172-31-38-80 kashemAWS]$ ec2-18-232-75-94.compute-1.amazonaws.com
 -bash: ec2-18-232-75-94.compute-1.amazonaws.com: command not found
 [ec2-user@ip-172-31-38-80 kashemAWS]$ PWD
@@ -97,7 +96,7 @@ line 11 this line will be seen with tail command as this is actuaaly 12th line
 ^Z
 [1]+  Stopped                 head
 [ec2-user@ip-172-31-38-80 kashemAWS]$ head test1
-head: cannot open ‘test1’ for reading: No such file or directory
+head: cannot open �test1� for reading: No such file or directory
 [ec2-user@ip-172-31-38-80 kashemAWS]$ head test2
 this is another test file for practice and the file no is 2
 there will be 10 more lines to practice head and tail commane
@@ -306,103 +305,3 @@ After doing this, you may fix the identity used for this commit with:
 On branch master
 nothing to commit, working tree clean
 [ec2-user@ip-172-31-38-80 kashemAWS]$
-Kashem@Kashem-680M MINGW32 ~
-$ pwd
-/c/Users/Kashem
-
-Kashem@Kashem-680M MINGW32 ~
-$ cd e:/
-
-Kashem@Kashem-680M MINGW32 /e
-$ ls
-'$RECYCLE.BIN'/             GOT/              'Preason Break'/
-'$SIR$'/                   'MAK OFFICE DOC'/   QAAE/
- 2020SS1/                  'MAK others'/      'Scan doc of MAK'/
- ASP/                      'maruf bhai'/      'soft fm zahid'/
-'CAT 05 PP'/                MIS_SOFT/         'System Volume Information'/
-'Compiled Sir By anowar'/   MOVIE/
-'FROM DESKTOP MAK'/         movies/
-
-Kashem@Kashem-680M MINGW32 /e
-$ cd QAAE/
-
-Kashem@Kashem-680M MINGW32 /e/QAAE
-$ ls
-AWSB2002/  homework/  practice_cmnd.txt
-
-Kashem@Kashem-680M MINGW32 /e/QAAE
-$ cd AWSB2002/
-
-Kashem@Kashem-680M MINGW32 /e/QAAE/AWSB2002
-$ ls
-KASHEM.pem
-
-Kashem@Kashem-680M MINGW32 /e/QAAE/AWSB2002
-$ chmod 400 KASHEM.pem
-
-Kashem@Kashem-680M MINGW32 /e/QAAE/AWSB2002
-$ ssh -i "KASHEM.pem" ec2-user@ec2-18-232-75-94.compute-1.amazonaws.com
-Last login: Mon Jun 29 06:24:24 2020 from 202.84.37.50
-
-       __|  __|_  )
-       _|  (     /   Amazon Linux 2 AMI
-      ___|\___|___|
-
-https://aws.amazon.com/amazon-linux-2/
-4 package(s) needed for security, out of 10 available
-Run "sudo yum update" to apply all updates.
-[ec2-user@ip-172-31-38-80 ~]$ pwd
-/home/ec2-user
-[ec2-user@ip-172-31-38-80 ~]$ ls
-kashemAWS
-[ec2-user@ip-172-31-38-80 ~]$ cd kashemAWS/
-[ec2-user@ip-172-31-38-80 kashemAWS]$ lspwd
--bash: lspwd: command not found
-[ec2-user@ip-172-31-38-80 kashemAWS]$ PWD
--bash: PWD: command not found
-[ec2-user@ip-172-31-38-80 kashemAWS]$ LS
--bash: LS: command not found
-[ec2-user@ip-172-31-38-80 kashemAWS]$ chmod 400 KASHEM.pem
-chmod: cannot access ‘KASHEM.pem’: No such file or directory
-[ec2-user@ip-172-31-38-80 kashemAWS]$ ec2-18-232-75-94.compute-1.amazonaws.com
--bash: ec2-18-232-75-94.compute-1.amazonaws.com: command not found
-[ec2-user@ip-172-31-38-80 kashemAWS]$ PWD
--bash: PWD: command not found
-[ec2-user@ip-172-31-38-80 kashemAWS]$ LS
--bash: LS: command not found
-[ec2-user@ip-172-31-38-80 kashemAWS]$ ls
-linuscomandtest  linuxcomandtest  test2
-[ec2-user@ip-172-31-38-80 kashemAWS]$ date
-Mon Jun 29 08:50:44 UTC 2020
-[ec2-user@ip-172-31-38-80 kashemAWS]$ cal
-      June 2020
-Su Mo Tu We Th Fr Sa
-    1  2  3  4  5  6
- 7  8  9 10 11 12 13
-14 15 16 17 18 19 20
-21 22 23 24 25 26 27
-28 29 30
-
-[ec2-user@ip-172-31-38-80 kashemAWS]$ uptimme
--bash: uptimme: command not found
-[ec2-user@ip-172-31-38-80 kashemAWS]$ cat test2
-this is another test file for practice and the file no is 2
-there will be 10 more lines to practice head and tail commane
-line 2
-line 3
-line 4
-line 6
-line 6
-line 7
-line 8
-line 9
-line 10
-line 11 this line will be seen with tail command as this is actuaaly 12th line
-[ec2-user@ip-172-31-38-80 kashemAWS]$ head
-
-
-^Z
-[1]+  Stopped                 head
-[ec2-user@ip-172-31-38-80 kashemAWS]$ head test1
-head: cannot open ‘test1’ for reading: No such file or directory
-
