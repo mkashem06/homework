@@ -1,0 +1,2 @@
+this is the command practice for git bash
+we will learn PWD, ls , ls -a cd , mkadir,touch, nano,etc
